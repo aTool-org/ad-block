@@ -1,0 +1,35 @@
+.ad-block {
+   background: url(ad-block.png) right bottom no-repeat #fff;
+   font-size: 0.9em;
+   font-size: 13px;
+   width: 100%;
+}
+
+.ad-block ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.ad-block li {
+  list-style: none;
+  width: 18%;
+  padding: 0 1%;
+  margin: 0;
+  line-height: 20px;
+  float: left;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.ad-block li a {
+  text-decoration: none;
+  color: rgb(0, 0, 238);
+  font-family: 'simsun', "arial", "sans-serif" !important;
+}
+
+.ad-block li a.red {
+  color: #ff0000 !important;
+}
